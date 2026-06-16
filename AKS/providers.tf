@@ -6,8 +6,7 @@ terraform {
     }
   }
   backend "remote" {
-    # Replace with your exact Terraform Cloud Organization Name
-    organization = "<YOUR_TERRAFORM_CLOUD_ORGANIZATION_NAME>"
+    organization = "pavankattamuri"
 
     workspaces {
       name = "azure-aks-deployment"
