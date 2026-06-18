@@ -2,7 +2,8 @@ terraform {
   required_version = "1.15.6"
 
   cloud {
-    organization = "pavankattamuri"
+    
+    organization = "Rajeevgangaraju"
 
     workspaces {
       name = "poc-15"
